@@ -1,0 +1,47 @@
+@import url('../../styles/variables.css');
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 84px;
+    background: var(--color-primary-container-topbar);
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px; 
+
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+.container .VivoIcon{
+    position: fixed;
+    top: 13.68px;
+    Left: 28px;
+    width: 30.67px;
+    height: 42.67px;
+}
+.container .wrapper{   
+    width: 66.18%;
+    height: 49px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.02px;
+
+    display: flex; /* Ativa o flexbox */
+    justify-content: space-around; /* Distribui os links igualmente com espaço ao redor */
+    align-items: center; /* Centraliza verticalmente */
+}
+.container .wrapper a { 
+    color: var(--color-primary-text-topbar);
+    text-decoration: none; /* Remove o sublinhado */
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    transition: all 1s ease;
+
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */    
+}
+.container .wrapper a:hover{
+    background: var(--color-sercundary-container-hover-topbar);
+}

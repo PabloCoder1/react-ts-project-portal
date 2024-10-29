@@ -1,0 +1,131 @@
+.topbar {
+  position: absolute;
+  z-index: 1;
+}
+.sidebar {
+  position: absolute;
+  z-index: 1;
+}
+img {
+  -webkit-user-drag: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.HomePerson .Hive {
+  position: absolute;
+  top: -30px;
+  left: 364px;
+  width: 523px;
+  height: 317px;
+}
+
+.textTypes {
+  position: absolute;
+  top: 137.86px;
+  left: 1018.67px;
+  width: 737.33px;
+  height: 655.61px;
+}
+
+.textTypes .title {
+  width: 737.33px;
+  height: 213px;
+}
+
+.textTypes .text {
+  position: absolute;
+  top: 260.67px;
+  width: 737.33px;
+  height: 306.23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textTypes .title h1 {
+  font-weight: 700;
+  font-size: 97px;
+  line-height: 100.44px;
+  background-image: linear-gradient(270deg, #f20091 21%, #660092 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.textTypes .text p {
+  font-weight: 400;
+  font-size: 27.5px;
+  line-height: 31.02px;
+  color: rgba(112, 112, 111, 1);
+}
+
+.textTypes .text p strong {
+  font-weight: 700;
+}
+
+.HiveBlackOne {
+  position: absolute;
+  top: 13px;
+  left: 939px;
+  width: 256px;
+  height: 155px;
+}
+
+.HiveBlackTwo {
+  position: absolute;
+  top: 109px;
+  left: 1285px;
+  width: 161px;
+  height: 98px;
+}
+
+.HiveBlackThree {
+  position: absolute;
+  top: 112px;
+  left: 1657px;
+  width: 192px;
+  height: 118px;
+  opacity: 0.4;
+}
+
+.DotText {
+  position: absolute;
+  top: 149px;
+  left: 1657px;
+  width: 19px;
+  height: 19px;
+}
+
+.containerBtn {
+  position: absolute;
+  top: 608px;
+}
+
+.containerBtn .btn {
+  width: 704px;
+  height: 47px;
+  border: none;
+  border-radius: 7px;
+  background: rgba(102, 0, 146, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: all 1s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerBtn .btn:hover {
+  background: rgba(253, 118, 36, 1);
+}
+.containerBtn .btn p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24.56px;
+  text-align: center;
+}
+.containerBtn .btn strong {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24.56px;
+}
