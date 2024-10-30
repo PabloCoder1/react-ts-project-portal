@@ -1,0 +1,30 @@
+@import url('../../styles/variables.css');
+
+
+.container .btn {
+  width: 704px;
+  height: 47px;
+  border: none;
+  border-radius: 7px;
+  background: var(--color-primary-purple);
+  color: var(--color-text-global-white);
+  transition: all 1s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .btn:hover {
+  background: var(--color-sercundary-orange);
+}
+.container .btn p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24.56px;
+  text-align: center;
+}
+.container .btn strong {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24.56px;
+}

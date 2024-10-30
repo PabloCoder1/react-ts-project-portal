@@ -3,20 +3,21 @@ import Topbar from "../../components/Topbar";
 import styles from "./Home.module.css";
 import Person from "../../assets/HomePerson.svg";
 import HiveFloating50 from "../../assets/ColmeiaFloating50.png";
-import DotText from "../../assets/DotIcon.svg";
+import Button from "../../components/Button";
 
-const Login = () => {
+const Home = () => {
   return (
     <>
-      <div className={styles.topbar}>
-        <Topbar />
-      </div>
+      <header className={styles.topbar}>
+        <Topbar/>
+      </header>
+
       <div className={styles.HomePerson}>
         <img className={styles.Hive} src={HiveFloating50} />
         <img src={Person} />
       </div>
 
-      <img src={DotText} className={styles.DotText} />
+      <div className={styles.DotText}></div>
 
       <div className={styles.textTypes}>
         <div className={styles.title}>
@@ -39,14 +40,9 @@ const Login = () => {
           </p>
         </div>
 
-        <div className={styles.containerBtn}>
-          <button className={styles.btn}>
-            <p>
-              Conheça o nosso <strong>framework</strong>
-            </p>
-          </button>
-        </div>
+        <div className={styles.containerBtn}><Button text="Conheça o nosso framework" /*color="red"*//></div>
       </div>
+
       <div className={styles.sidebar}>
         <Sidebar />
       </div>
@@ -54,4 +50,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Home;

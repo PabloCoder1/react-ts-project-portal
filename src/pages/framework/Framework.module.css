@@ -1,0 +1,155 @@
+.textTypes{
+    position: absolute;
+    top: 14.73px;
+    left: 241.33px;
+    width: 1432px;
+    height: 331px;
+}
+.textTypes .title{
+    width: 1105px;
+    height: 227px;
+}
+.textTypes .title h1 {
+    font: 700 167px/215.85px sans-serif;
+    background-image: linear-gradient(
+      270deg,
+      var(--color-primary-pink) 21%,
+      var(--color-primary-purple) 75%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.textTypes .version{
+    position: absolute;
+    top: 130px;
+    left: 1000px;
+    width: 261px;
+    height: 50px;  
+}
+.textTypes .version p{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46.53px;
+    color: var(--color-text-global-gray-opacty);
+}
+.textTypes .text{
+    width: 1432px;
+    height: 104px ;
+}
+.textTypes .text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.02px;
+    color: var(--color-text-global-gray);
+}
+ .textTypes .text strong {
+    font-weight: 700;
+}
+.container{
+    position: absolute;
+    top: 384.1px;
+    left: 220px;
+    width: 1579px;
+    height: 850px;
+    display: flex;
+    font-size: 8px;
+    flex-direction: row ltr;
+}
+.HighCollun{
+    width: 157.9px;
+    right: 20px;    
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.MiddleCollun{
+    width: 157.9px;
+    height: 713.6px;
+    display: flex;
+    flex-direction: column;
+}
+.LowCollun{
+    position: relative;
+    top: 131px;
+    width: 157.9px;
+    height: 719px;
+    display: flex;
+    flex-direction: column;
+}
+.HexName{
+    height: 850px;
+    width: 157.9px;
+}
+.HexName h1{
+    height: 68.2px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.68px;
+    text-align: center;
+}
+
+.hex {
+    position: relative;
+    left: 38.97px;
+    margin-top: 20px;
+    width: 10em;    
+    height: 17.32em; 
+    border-radius: 1em/.5em;
+    cursor: pointer;
+    transition: Dissolve 300ms ease-out;
+}
+
+.hex:before,
+.hex:after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: '';
+}
+    
+.hex:before {
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+.hex:after {
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+#blackpurple { background: rgba(64, 27, 90, 1); color: rgba(64, 27, 90, 1); } 
+#blue { background: rgba(10, 87, 158, 1); color: rgba(10, 87, 158, 1) } 
+#gray { background: rgba(140, 140, 140, 1); color: rgba(140, 140, 140, 1); } 
+#lightpurple { background: rgba(102, 0, 146, 1); color: rgba(102, 0, 146, 1); } 
+#pink { background: rgba(232, 24, 118, 1); color: rgba(232, 24, 118, 1); } 
+#cyan { background: rgba(105, 177, 226, 1); color: rgba(105, 177, 226, 1); } 
+#orange { background: rgba(253, 118, 36, 1); color: rgba(253, 118, 36, 1); } 
+#green { background: rgba(128, 205, 0, 1); color: rgba(128, 205, 0, 1); } 
+#brown { background: rgba(224, 167, 105, 1); color: rgba(224, 167, 105, 1); }
+.Nameblackpurple {color: rgba(64, 27, 90, 1); } 
+.Nameblue { color: rgba(10, 87, 158, 1) } 
+.Namegray { color: rgba(140, 140, 140, 1); } 
+.Namelightpurple { color: rgba(102, 0, 146, 1); } 
+.Namepink { color: rgba(232, 24, 118, 1); } 
+.Namecyan { color: rgba(105, 177, 226, 1); } 
+.Nameorange { color: rgba(253, 118, 36, 1); } 
+.Namegreen { color: rgba(128, 205, 0, 1); } 
+.Namebrown { color: rgba(224, 167, 105, 1); }
+
+.EndText{
+    position: absolute;
+    top: 1261.45px;
+    left: 403.00px;
+    width: 1113px ;
+    height: 65.27px ;
+}
+.EndText p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.02px;
+    text-align: Center;
+    color: rgba(112, 112, 111, 1);
+}

@@ -2,14 +2,10 @@
   position: absolute;
   z-index: 1;
 }
+
 .sidebar {
   position: absolute;
   z-index: 1;
-}
-img {
-  -webkit-user-drag: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .HomePerson .Hive {
@@ -43,21 +39,22 @@ img {
   justify-content: space-between;
 }
 .textTypes .title h1 {
-  font-weight: 700;
-  font-size: 97px;
-  line-height: 100.44px;
-  background-image: linear-gradient(270deg, #f20091 21%, #660092 75%);
+  font: 700 97px/100.44px sans-serif; /* shorthand para font-weight, font-size e line-height */
+  background-image: linear-gradient(
+    270deg,
+    var(--color-primary-pink) 21%,
+    var(--color-primary-purple) 75%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: block;
 }
 
 .textTypes .text p {
   font-weight: 400;
   font-size: 27.5px;
   line-height: 31.02px;
-  color: rgba(112, 112, 111, 1);
+  color: var(--color-text-global-gray);
 }
 
 .textTypes .text p strong {
@@ -95,37 +92,11 @@ img {
   left: 1657px;
   width: 19px;
   height: 19px;
+  border-radius: 50%;
+  border: var(--color-primary-pink) solid;
 }
-
 .containerBtn {
   position: absolute;
   top: 608px;
 }
 
-.containerBtn .btn {
-  width: 704px;
-  height: 47px;
-  border: none;
-  border-radius: 7px;
-  background: rgba(102, 0, 146, 1);
-  color: rgba(255, 255, 255, 1);
-  transition: all 1s ease;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.containerBtn .btn:hover {
-  background: rgba(253, 118, 36, 1);
-}
-.containerBtn .btn p {
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 24.56px;
-  text-align: center;
-}
-.containerBtn .btn strong {
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 24.56px;
-}
