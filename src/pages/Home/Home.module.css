@@ -1,3 +1,5 @@
+@import url('../../styles/variables.css');
+
 .topbar {
   position: absolute;
   z-index: 1;

@@ -1,11 +1,10 @@
-import Framework from './pages/framework'
-import Home from './pages/Home'
+import WhoAre from './pages/WhoAre/WhoAre'
 
 const App = () => {
 
   return (
     <>
-      <Framework />
+      <WhoAre />
     </>
   )
 }

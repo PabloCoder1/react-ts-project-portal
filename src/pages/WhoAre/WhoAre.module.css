@@ -1,0 +1,9 @@
+@import url('../../styles/variables.css');
+
+.WhoAre{
+    position: absolute;
+    top: -34px;
+    left: 1100px;
+    height: 1002.2px;
+    width: 898px;
+}
