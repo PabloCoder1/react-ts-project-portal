@@ -1,10 +1,10 @@
-import WhoAre from './pages/WhoAre/WhoAre'
+import Papers from "./pages/Papers"
 
 const App = () => {
 
   return (
     <>
-      <WhoAre />
+      <Papers />
     </>
   )
 }

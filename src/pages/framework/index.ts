@@ -1,1 +1,1 @@
-export { default } from "./framework"
+export { default } from "./framework.tsx"

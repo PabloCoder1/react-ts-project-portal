@@ -1,0 +1,18 @@
+@import url('../../styles/variables.css');
+
+.body{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    270deg,
+    var(--color-primary-pink) 10%,
+    var(--color-primary-purple) 75%
+  );
+}
+.container{
+  width: 1212px;
+  height: 540px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+}
